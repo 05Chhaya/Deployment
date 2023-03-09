@@ -9,6 +9,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import nltk 
 nltk.download('stopwords')
+nltk.download('punkt')
 
 input_text = st.text_input("Enter text for Sentimental Analysis:")
 
