@@ -8,6 +8,7 @@ import string
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import nltk 
+nltk.download('stopwords')
 
 input_text = st.text_input("Enter text for Sentimental Analysis:")
 
